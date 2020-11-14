@@ -1,0 +1,134 @@
+.top{
+    background-color: black;
+    height: 100px;
+    z-index: 1;
+}
+.txt1{
+
+    margin-left: 50px;
+    padding: 8px;
+    margin-top: 15px;
+    height: 25%;
+    width: 15%;
+
+
+}
+.txt2{
+    margin-left: 5px;
+    width: 60%;
+    padding: 8px;
+    height: 25%;
+    margin-top: 15px;
+}
+.bt1{
+    padding: 8px;
+    margin-top: 15px;
+    height: 46px;
+    margin-right: 10%;
+    width: 35px;
+}
+.bi bi-search{
+ font-weight: bolder !important;
+
+    }
+    .h{
+      color: wheat;
+
+    }
+    .sectop{
+        background-color:  white;
+        border-style: double;
+        border-color: antiquewhite;
+
+    }
+    .nav{
+margin-left: 5px !important;
+    }
+
+    .img1{
+        width: 100%;
+        height: 500px !important;
+        margin-top: 2%;
+    }
+
+    .card-img-top {
+        width:60% !important;
+        margin-top: 10%;
+        margin-left: 15%;
+
+    }
+    .fch,.sch{
+        font-weight: bold;
+    }
+    .card-text,.card-text1{
+        font-size: small;
+        margin:0;
+
+    }
+
+
+
+    .fcsp,.scsp{
+        font-size: 12px;
+        color: gray;
+    }
+
+    .fcb,.scb{
+        font-size: 12px;
+        color: gray;
+    }
+    .fcbt{
+        margin-left: 10%;
+    }
+    .cards{
+
+        margin-right: 0%;
+            }
+.card1{
+    border-color: black !important;
+     border-radius: 6px 6px 6px 6px ;
+   border-style: groove;
+   box-shadow: 2px 2px 2px 2px;
+   margin-top: 6%;
+   height: auto;
+   cursor: pointer;
+}
+.load{
+    color: black;
+    margin-top: 4%;
+    margin-left: 50%;
+    border-style: solid;
+    box-sizing: border-box;
+    width: 10%;
+    cursor: pointer;
+    border-radius: 5px 5px 5px 5px ;
+}
+
+    @media screen and (min-width: 360px){
+        .top,.sectop{
+            width: auto;
+
+        }
+        .cards{
+            flex-wrap: wrap;
+            height: 100%;
+            width: 100%;
+        }
+
+
+        .card-img-top {
+            width:70% !important;
+            margin-top: 10%;
+            margin-left: 15%;
+
+        }
+        .fch,.sch{
+            font-weight: bolder;
+            font-size: large;
+        }
+        .card-text,.card-text1{
+            font-size: small;
+            margin:0;
+
+        }
+    }
